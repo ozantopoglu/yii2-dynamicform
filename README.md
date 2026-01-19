@@ -1,8 +1,8 @@
 # yii2-dynamicform
 
-[![Latest Version](https://img.shields.io/github/release/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://github.com/wbraganca/yii2-dynamicform/releases)
+[![Latest Version](https://img.shields.io/github/release/ozantopoglu/yii2-dynamicform.svg?style=flat-square)](https://github.com/ozantopoglu/yii2-dynamicform/releases)
 [![Software License](http://img.shields.io/badge/license-BSD3-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://packagist.org/packages/wbraganca/yii2-dynamicform)
+[![Total Downloads](https://img.shields.io/packagist/dt/ozantopoglu/yii2-dynamicform.svg?style=flat-square)](https://packagist.org/packages/ozantopoglu/yii2-dynamicform)
 
 
 It is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.
@@ -16,31 +16,17 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist wbraganca/yii2-dynamicform "*"
+php composer.phar require --prefer-dist ozantopoglu/yii2-dynamicform "*"
 ```
 
 or add
 
 ```
-"wbraganca/yii2-dynamicform": "*"
+"ozantopoglu/yii2-dynamicform": "*"
 ```
 
 to the require section of your `composer.json` file.
 
-
-## Demos
-
-* [Demo 1](https://wbraganca.com/yii2extensions/dynamicform-demo1/) - (Address Book).
-* [Demo 2](https://wbraganca.com/yii2extensions/dynamicform-demo2/) - (File Upload).
-* [Demo 3](https://wbraganca.com/yii2extensions/dynamicform-demo3/) - (Nested Dynamic Form).
-
-
-## Usage
-
-
-### Hypothetical Scenario
-
-![Database](https://wbraganca.com/img/yii2-dynamicform/hypothetical-scenario.jpg)
 
 ### The View
 
@@ -48,7 +34,7 @@ to the require section of your `composer.json` file.
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use wbraganca\dynamicform\DynamicFormWidget;
+use ozantopoglu\dynamicform\DynamicFormWidget;
 ?>
 
 <div class="customer-form">
